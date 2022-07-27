@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+</head>
+<body>
+    
+    <div class="text-center center-div" id="login">
+        <div class="container w-25 border py-5">
+            <div class="title pb-5">
+                <h1 class="font-weight-bold">Login</h1>
+                <span>Log in for the existing user</span>
+            </div>
+            <form action="/login" method="POST">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="email" name="email" required>
+                </div>
+                <div class="form group">
+                    <input type="password" class="form-control" name="password" placeholder="password" required>
+                </div>
+                <button type="submit" class="btn btn-success rounded-pill">Submit</button>
+            </form>
+            <a href="/main">Back to Homepage</a>
+        </div>
+    </div>
+
+  
+    
+</body>
+</html>

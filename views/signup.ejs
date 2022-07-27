@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" href="css/signup.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+</head>
+<body>
+    
+    <div class="text-center center-div" id="signup">
+        <div class="container border py-5">
+            <div class="title pb-5">
+                <h1 class="font-weight-bold">Sign Up</h1>
+            </div>
+            <form action="" method="">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="First Name" name="first-name" required>
+
+                </div>
+                <div class="form group">
+                    <input type="text" class="form-control" name="last-name" placeholder="Last Name" required>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <select class="select">
+                      <option value="1" disabled>Gender</option>
+                      <option value="2">Female</option>
+                      <option value="3">Male</option>
+                      <option value="4">Other</option>
+                    </select> 
+                </div>
+                <div class="form group" id="age">
+                    <input type="number" class="form-control" name="age" placeholder="Age" required>
+                </div>
+                <div class="form group">
+                    <input type="text" class="form-control" name="username" placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" name="password" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn btn-success rounded-pill">Register</button>
+            </form>
+            <div>
+                <p>Already Have an Account?  <a href="/login">Login</a></p>
+            </div>
+            <div>
+                <a href="/main">Back to Main Homepage</a>
+            </div>
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>

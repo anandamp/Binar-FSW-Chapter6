@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+
+    <!-- CSS -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style-games.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+
+</head>
+<body>
+
+    <div class="container" id="games-bg"> 
+        <!-- Title -->
+        <div class="d-flex flex-row">
+            <a href="/main" id="back"><h1><</h1></a>
+            <img src="img/logo.png" alt="">
+            <h1 id="text-rps">ROCK PAPER SCISSORS</h1>
+        </div>
+        
+        <div class="row align-items-center">
+            <div class="col-sm-12" id="player1">
+                <div class="row">
+
+                    <!-- Player 1 -->
+                    <div class="col-md-3 col-1 offset-2" id="player1">
+                        <div class="player1">
+                            <h2>PLAYER 1</h2><br>                       
+                            <div class="player-option">
+                                <img class="batu" src="img/batu.png"><br><br>
+                                <img class="kertas" src="img/kertas.png"><br><br>
+                                <img class="gunting" src="img/gunting.png">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- VS and Final Result -->
+                    <div class="col-2 text-center">
+                        <h1 class="result">VS</h1> 
+                    </div>
+
+                    <!-- COM -->
+                    <div class="col-md-4 col-3 offset-1" id="com">
+                        <div class="computer">
+                            <h2>COM</h2>
+                        </div><br>
+                        <div class="batu-kertas-gunting">
+                            <div class="com-option">
+                                <img class="batu2" src="img/batu.png"><br><br>
+                                <img class="kertas2" src="img/kertas.png"><br><br>
+                                <img class="gunting2" src="img/gunting.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Refresh button -->
+                <div class="col-sm-12 text-center">
+                    <img id="refresh" src="img/refresh.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,1277 @@
+@media screen and (min-width: 320px)
+{
+    
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    #navigation {
+        left: -74px;
+    }
+
+
+    #navigation .navbar-brand {
+        font-size: 19px;
+    }
+
+    #main-bg .my-4 {
+        font-size: 12px;
+    }
+
+    #game-bg .col-md-3 .h1 {
+        font-size: 24px;
+    }
+
+    #game-bg .col-md-3 p {
+        font-size: 12px;
+    }
+
+    #carousel-game .carousel-indicators li {
+        width: 6px;
+        height: 6px;
+    }
+
+    .carousel-control-prev {
+        margin-left: -6%;
+    }
+
+    .carousel-control-prev-icon {
+        width: 6px;
+    }
+
+    .carousel-control-next {
+        margin-right: -6%;
+    }
+
+    .carousel-control-next-icon {
+        width: 6px;
+    }
+
+    .w-100 {
+        width: 90%!important;
+        margin-left: 16px
+    }
+
+    #feature-bg {
+        background-position: left;
+    }
+
+    #feature-bg .col-sm-4 {
+        margin-left: 4px;
+    }
+
+    #feature-bg p {
+        font-size: 14px;
+    }
+
+    #feature-bg .col-sm-4 h1 {
+        font-size: 32px;
+    }
+
+    .text-orange {
+        font-size: 14px; 
+    }
+
+    #feature-bg .sub-text-list {
+        font-size: 12px;
+        line-height:15px;
+    }
+
+    #feature-bg ul li {
+        font-size: 24px;
+    }
+
+    #system-bg {
+        background-position: left;
+    }
+
+    #system-bg .text-center {
+        font-size: 8px;
+        padding-bottom: 25px;
+    }
+
+    #system-bg h1 {
+        font-size: 24px;
+    }
+
+    #system-bg table {
+        font-size: 9px;
+    }
+
+    #system-bg .text-orange {
+        font-size: 12px;
+    }
+
+    #topscores-bg .offset-1 h1 {
+        font-size: 26px;
+    }
+
+    #topscores-bg .col-sm-4 p {
+        font-size: 11px;
+        margin-bottom: 4px;
+        margin-right: 35px;
+    }
+
+    #topscores-bg .btn {
+        font-size: 8px;
+        padding: 1px 2px;
+        padding-right: 2rem!important;
+        padding-left: 2rem!important;
+    }
+
+    #topscores-bg .image-profile img {
+        width: 25.7px;
+        height: 25.49px;
+    }
+
+    #topscores-bg .col-sm-10 {
+        margin-right: 7px;
+    }
+
+    #topscores-bg #date {
+        font-size: 8px;
+    }
+
+    #topscores-bg .card {
+        margin-right: 28px;
+    }
+
+    #topscores-bg .card-body .sub-text {
+        font-size: 12px;
+    }
+
+    #topscores-bg .card-body .card-text {
+        font-size: 12px;
+    }
+
+    #topscores-bg .card-body .text-orange {
+        font-size: 12px;
+    }
+
+    #topscores-bg p {
+        margin: -1px;
+    }
+
+    #subscribe-bg .col-lg-3 img {
+        position: relative;
+        margin-left: -50px;
+        width: 111px;
+        height: 133px
+    }
+
+    .mb-1 {
+        font-size: 14px ;
+    }
+
+    .col-sm-6 h1 {
+        font-size: 32px;
+    }
+
+    .desc {
+        font-size: 10px;
+    }
+
+    #exampleInputEmail1 {
+        margin-top: 11px;
+        font-size: 9px;
+    }
+
+    #subscribe-bg .col-auto .btn {
+        margin-top: -8px;
+        font-size: 9px;
+        line-height: 7.79px;
+    }
+
+    #subscribe-bg .col-lg-3 img {
+        position: fixed;
+    }
+
+    #subscribe-bg .footer-menu .footer-menu-item {
+        font-size: 6px;
+    }
+
+    #subscribe-bg .footer-menu {
+        margin-bottom: -2rem;
+    }
+
+    #subscribe-bg .offset-1 {
+        margin-left: 0.333333%;
+    }
+
+    #subscribe-bg .col-lg-10 .col-auto img {
+        width: 8px;
+        height: 8px;
+    }
+
+    #subscribe-bg .copyright {
+        font-size: 8px;
+        margin-top: 12px;
+    }
+
+    #subscribe-bg .privacy {
+        font-size: 7px;
+        margin-top: 12px;
+    }
+}
+
+
+@media screen and (min-width: 375px)
+{
+    
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    #navigation {
+        left: -74px;
+    }
+
+
+    #navigation .navbar-brand {
+        font-size: 19px;
+    }
+
+    #main-bg .my-4 {
+        font-size: 12px;
+    }
+
+    #game-bg .col-md-3 .h1 {
+        font-size: 28px;
+    }
+
+    #game-bg .col-md-3 p {
+        font-size: 14px;
+    }
+
+    #carousel-game .carousel-indicators li {
+        width: 6px;
+        height: 6px;
+    }
+
+    .carousel-control-prev {
+        margin-left: -6%;
+    }
+
+    .carousel-control-prev-icon {
+        width: 6px;
+    }
+
+    .carousel-control-next {
+        margin-right: -6%;
+    }
+
+    .carousel-control-next-icon {
+        width: 6px;
+    }
+
+    .w-100 {
+        width: 90%!important;
+        margin-left: 16px
+    }
+
+    #feature-bg {
+        background-position: left;
+    }
+
+    #feature-bg .col-sm-4 {
+        margin-left: 4px;
+    }
+
+    #feature-bg p {
+        font-size: 14px;
+    }
+
+    #feature-bg .col-sm-4 h1 {
+        font-size: 32px;
+    }
+
+    .text-orange {
+        font-size: 14px; 
+    }
+
+    #feature-bg .sub-text-list {
+        font-size: 12px;
+        line-height:15px;
+    }
+
+    #feature-bg ul li {
+        font-size: 24px;
+    }
+
+    #system-bg {
+        background-position: left;
+    }
+
+    #system-bg .text-center {
+        font-size: 8px;
+        padding-bottom: 25px;
+    }
+
+    #system-bg h1 {
+        font-size: 24px;
+    }
+
+    #system-bg table {
+        font-size: 9px;
+    }
+
+    #system-bg .text-orange {
+        font-size: 12px;
+    }
+
+    #topscores-bg .offset-1 h1 {
+        font-size: 26px;
+    }
+
+    #topscores-bg .col-sm-4 p {
+        font-size: 11px;
+        margin-bottom: 4px;
+        margin-right: 35px;
+    }
+
+    #topscores-bg .btn {
+        font-size: 8px;
+        padding: 1px 2px;
+        padding-right: 2rem!important;
+        padding-left: 2rem!important;
+    }
+
+    #topscores-bg .image-profile img {
+        width: 25.7px;
+        height: 25.49px;
+    }
+
+    #topscores-bg #date {
+        font-size: 8px;
+    }
+
+    #topscores-bg .card {
+        margin-right: 28px;
+    }
+
+    #topscores-bg .card-body .sub-text {
+        font-size: 12px;
+    }
+
+    #topscores-bg .card-body .card-text {
+        font-size: 12px;
+    }
+
+    #topscores-bg .card-body .text-orange {
+        font-size: 12px;
+    }
+
+    #topscores-bg p {
+        margin: -1px;
+    }
+
+    #subscribe-bg .col-lg-3 img {
+        position: fixed;
+        margin-left: -50px;
+        width: 107px;
+        height: 133px
+    }
+
+    .mb-1 {
+        font-size: 14px ;
+    }
+
+    .col-sm-6 h1 {
+        font-size: 32px;
+    }
+
+    .desc {
+        font-size: 10px;
+    }
+
+    #exampleInputEmail1 {
+        margin-top: 29px;
+        font-size: 9px;
+    }
+
+    #subscribe-bg .col-auto .btn {
+        margin-top: 27px;
+        font-size: 9px;
+        line-height: 11.79px;
+    }
+
+    #subscribe-bg .footer-menu .footer-menu-item {
+        font-size: 6px;
+    }
+
+    #subscribe-bg .footer-menu {
+        margin-bottom: -2rem;
+    }
+
+    #subscribe-bg .offset-1 {
+        margin-left: 0.333333%;
+    }
+
+    #subscribe-bg .col-lg-3 img {
+        position: fixed;
+    }
+
+    #subscribe-bg .col-lg-10 .col-auto img {
+        width: 10px;
+        height: 10px;
+    }
+
+    #subscribe-bg .copyright {
+        font-size: 8px;
+        margin-top: 12px;
+    }
+
+    #subscribe-bg .privacy {
+        font-size: 7px;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (min-width: 425px) 
+{
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    #navigation {
+        left: -74px;
+    }
+
+    #navigation .navbar-toggler {
+        margin-right: -75px
+    }
+
+    #navigation .navbar-brand {
+        font-size: 19px;
+    }
+
+    #main-bg .my-4 {
+        font-size: 12px;
+    }
+
+    #game-bg .col-md-3 .h1 {
+        font-size: 28px;
+    }
+
+    #game-bg .col-md-3 p {
+        font-size: 14px;
+    }
+
+    #carousel-game .carousel-indicators li {
+        width: 6px;
+        height: 6px;
+    }
+
+    .carousel-control-prev {
+        margin-left: -6%;
+    }
+
+    .carousel-control-prev-icon {
+        width: 6px;
+    }
+
+    .carousel-control-next {
+        margin-right: -6%;
+    }
+
+    .carousel-control-next-icon {
+        width: 6px;
+    }
+
+    .w-100 {
+        width: 90%!important;
+        margin-left: 16px
+    }
+
+    #feature-bg {
+        background-position: left;
+    }
+
+    #feature-bg .col-sm-4 {
+        margin-left: 4px;
+    }
+
+    #feature-bg p {
+        font-size: 14px;
+    }
+
+    #feature-bg .col-sm-4 h1 {
+        font-size: 32px;
+    }
+
+    .text-orange {
+        font-size: 14px; 
+    }
+
+    #feature-bg .sub-text-list {
+        font-size: 12px;
+        line-height:15px;
+    }
+
+    #feature-bg ul li {
+        font-size: 24px;
+    }
+
+    #system-bg {
+        background-position: left;
+    }
+
+    #system-bg .offset-1 {
+        margin-left: 1.333333%;
+        margin-right: 24px;
+    }
+
+    #system-bg .text-center {
+        font-size: 8px;
+        padding-bottom: 25px;
+    }
+
+    #system-bg h1 {
+        font-size: 28px;
+    }
+
+    #system-bg table {
+        font-size: 9px;
+    }
+
+    #system-bg .text-orange {
+        font-size: 12px;
+    }
+
+    #topscores-bg .offset-1 h1 {
+        font-size: 26px;
+    }
+
+    #topscores-bg .col-sm-4 p {
+        font-size: 11px;
+        margin-bottom: 4px;
+        margin-right: 35px;
+    }
+
+    #topscores-bg .btn {
+        font-size: 8px;
+        padding: 1px 2px;
+        padding-right: 2rem!important;
+        padding-left: 2rem!important;
+    }
+
+    #topscores-bg .image-profile img {
+        width: 25.7px;
+        height: 25.49px;
+    }
+
+    #topscores-bg #date {
+        font-size: 8px;
+    }
+
+    #topscores-bg .card {
+        margin-right: 44px
+    }
+
+    #topscores-bg .card-body .sub-text {
+        font-size: 12px;
+    }
+
+    #topscores-bg .card-body .card-text {
+        font-size: 12px;
+    }
+
+    #topscores-bg .card-body .text-orange {
+        font-size: 12px;
+    }
+
+    #topscores-bg p {
+        margin: -1px;
+    }
+
+    #subscribe-bg .col-lg-3 img {
+        position: relative;
+        margin-left: -50px;
+        width: 107px;
+        height: 133px
+    }
+
+    #subscribe-bg .mb-1 {
+        font-size: 16px ;
+    }
+
+    .col-sm-6 h1 {
+        font-size: 32px;
+    }
+
+    .desc {
+        font-size: 12px;
+    }
+
+    #exampleInputEmail1 {
+        margin-top: 28px;
+        font-size: 9px;
+    }
+
+    #subscribe-bg .col-auto .btn {
+        margin-top: 26px;
+        font-size: 9px;
+        line-height: 11.79px;
+    }
+
+    #subscribe-bg .footer-menu .footer-menu-item {
+        font-size: 6px;
+    }
+
+    #subscribe-bg .footer-menu {
+        margin-bottom: -2rem;
+    }
+
+    #subscribe-bg .offset-1 {
+        margin-left: 0.333333%;
+    }
+
+    #subscribe-bg .col-lg-10 .col-auto img {
+        width: 10px;
+        height: 10px;
+    }
+
+    #subscribe-bg .copyright {
+        font-size: 8px;
+        margin-top: 12px;
+    }
+
+    #subscribe-bg .privacy {
+        font-size: 7px;
+        margin-top: 12px;
+    }
+    
+    #subscribe-bg .col-lg-3 img {
+        position: absolute;
+        margin-left: 12rem;
+        margin-top: 12px;
+        width: 114px;
+        height: 169px;
+    }
+}
+
+@media screen and (min-width: 768px)
+{
+    
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    #navigation {
+        left: -74px;
+    }
+
+    #navigation .navbar-toggler {
+        margin-right: -75px
+    }
+
+    #navigation .navbar-brand {
+        font-size: 19px;
+    }
+
+    #main-bg .my-4 {
+        font-size: 12px;
+    }
+
+    #system-bg h1 {
+        font-size: 26px;
+    }
+
+    #game-bg .col-md-3 .h1 {
+        font-size: 38px;
+    }
+
+    #game-bg .col-md-3 p {
+        font-size: 16px;
+    }
+
+    #carousel-game .carousel-indicators li {
+        width: 6px;
+        height: 6px;
+    }
+
+    .carousel-control-prev {
+        margin-left: -7%;
+    }
+
+    .carousel-control-prev-icon {
+        width: 8px;
+    }
+
+    .carousel-control-next {
+        margin-right: -11%;
+    }
+
+    .carousel-control-next-icon {
+        width: 8px;
+    }
+
+    .w-100 {
+        width: 100%!important;
+        margin-left: 16px
+    }
+
+    #feature-bg {
+        background-position: center;
+    }
+
+    #feature-bg p {
+        font-size: 16px;
+    }
+
+    #feature-bg .col-sm-4 {
+        margin-left: 28rem;
+    }
+
+    #feature-bg .col-sm-4 h1 {
+        font-size: 42px;
+    }
+
+    .text-orange {
+        font-size: 16px; 
+    }
+
+    #feature-bg .sub-text-list {
+        font-size: 12px;
+        line-height:15px;
+    }
+
+    #feature-bg ul li {
+        font-size: 24px;
+    }
+
+    #system-bg .offset-1 {
+        margin-left: 6.333333%;
+        margin-right: 24px;
+    }
+
+    #system-bg .text-center {
+        font-size: 10px;
+        padding-bottom: 25px;
+    }
+
+    #system-bg h1 {
+        font-size: 26px;
+    }
+
+    #system-bg table {
+        font-size: 10px;
+    }
+
+    #system-bg .text-orange {
+        font-size: 12px;
+    }
+
+    #topscores-bg .offset-1 h1 {
+        font-size: 30px;
+    }
+
+    #topscores-bg .col-sm-4 p {
+        font-size: 12px;
+        margin-bottom: 27px;
+    }
+
+    #topscores-bg .btn {
+        font-size: 10px;
+        padding: 1px 2px;
+    }
+
+    #topscores-bg .image-profile img {
+        width: 44.7px;
+        height: 45.49px;
+    }
+
+    #topscores-bg #date {
+        font-size: 10px;
+    }
+
+    #topscores-bg .card {
+        margin-right: 44px
+    }
+
+    #topscores-bg .card-body .sub-text {
+        font-size: 12px;
+    }
+
+    #topscores-bg .card-body .card-text {
+        font-size: 12px;
+    }
+
+    #topscores-bg .card-body .text-orange {
+        font-size: 12px;
+    }
+
+    #topscores-bg .col-sm-10 {
+        width: 94.333333%;
+        margin-right: -19px;
+    }
+
+    #subscribe-bg .col-lg-3 img {
+        position: relative;
+        margin-left: -50px;
+    }
+
+    .mb-1 {
+        font-size: 14px ;
+    }
+
+    .col-lg-6 h1 {
+        font-size: 32px;
+    }
+
+    .desc {
+        font-size: 10px;
+    }
+
+    #exampleInputEmail1 {
+        margin-top: 11px;
+        font-size: 9px;
+    }
+
+    #subscribe-bg .col-auto .btn {
+        margin-top: 12px;
+        font-size: 9px;
+        line-height: 11.79px;
+    }
+
+    #subscribe-bg .footer-menu .footer-menu-item {
+        font-size: 8px;
+    }
+
+    #subscribe-bg .footer-menu {
+        margin-bottom: -2rem;
+    }
+
+    #subscribe-bg .offset-1 {
+        margin-left: 0.333333%;
+    }
+
+    #subscribe-bg .col-sm-6 {
+        margin-left: 23rem;
+    }
+
+    #subscribe-bg .col-lg-3 img {
+        position: absolute;
+        margin-top: 12px;
+        width: 250px;
+        height: 350px;
+    }
+
+    #subscribe-bg .col-lg-10 .col-auto img {
+        width: 10px;
+        height: 10px;
+    }
+
+    #subscribe-bg .copyright {
+        font-size: 8px;
+        margin-top: 12px;
+    }
+
+    #subscribe-bg .privacy {
+        font-size: 7px;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    #navigation {
+        left: -49px;
+    }
+
+    #navbarSupportedContent {
+        margin-right: -40px
+    }
+
+    #main-bg .my-4 {
+        font-size: 18px;
+    }
+
+    .small, small {
+        font-size: 17px;
+    }
+
+    #feature-bg .col-sm-4 {
+        margin-left: 37rem;
+    }
+
+    #feature-bg p {
+        font-size: 18px;
+    }
+
+    #feature-bg .col-sm-4 h1 {
+        font-size: 50px;
+    }
+
+    #feature-bg .sub-text-list {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    #system-bg .text-center {
+        font-size: 12px;
+    }
+
+    #system-bg h1 {
+        font-size: 42px;
+    }
+
+    #system-bg .text-orange {
+        font-size: 18px;
+    }
+
+    #system-bg p 
+    {
+        margin: 0px;
+        font-size: 14px;
+    }
+
+    #topscores-bg .offset-1 h1 {
+        font-size: 44px;
+    }
+
+    #topscores-bg .col-sm-4 p {
+        font-size: 14px;
+    }
+
+    #topscores-bg .btn {
+        font-size: 12px;
+        padding: 4px 4px;
+    }
+
+    #topscores-bg .image-profile img {
+        width: 57.7px;
+        height: 60.49px;
+    }
+
+    #topscores-bg .card-body .text-orange {
+        font-size: 16px;
+    }
+
+    #topscores-bg .card-body .card-text {
+        font-size: 14px;
+    }
+
+    #topscores-bg #date {
+        font-size: 12px;
+    }
+
+    #topscores-bg .card-body .sub-text {
+        font-size: 14px;
+    }
+
+    #topscores-bg .col-sm-10 {
+        width: 99.333333%;
+        margin-right: -47px;
+    }
+
+    #subscribe-bg .col-sm-6 {
+        margin-left: 28rem;
+        flex: -4 0 auto;
+    }
+
+    #subscribe-bg .col-lg-3 img {
+        margin-top: 35px;
+        margin-left: 0px;
+    }
+
+    #subscribe-bg .footer-menu {
+        margin-bottom: -9rem;
+        margin-top: 5rem;
+    }
+
+    #subscribe-bg .footer-menu .footer-menu-item {
+        font-size: 9px;
+    }
+
+    #subscribe-bg .offset-1 {
+        margin-left: 8.333333%;
+    }
+
+    .text-start {
+        text-align: left!important;
+        font-size: 12px;
+    }
+
+    .text-end {
+        text-align: right!important;
+        font-size: 10px;
+    }
+
+    #exampleInputEmail1 {
+        margin-top: 33px;
+        font-size: 10px;
+    }
+
+    #subscribe-bg .col-auto .btn {
+        margin-top: 33px;
+        font-size: 10px;
+        line-height: 11.79px;
+    }
+
+    #subscribe-bg .col-sm-6 h1 {
+        font-size: 36px;
+    }
+
+    .desc {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width: 1280px)
+{
+    #main-bg .btn strong {
+        font-size: 12px;
+        line-height: 21.79px;
+    }
+
+    #game-bg .col-md-3 .h1 {
+        font-size: 44px;
+    }
+
+    .w-100 {
+        width: 100%!important;
+        margin-left: 55px;
+    }
+
+    .carousel-control-prev-icon {
+        width: 16px;
+    }
+
+    .carousel-control-prev {
+        margin-left: -4%;
+    }
+
+    .carousel-control-next-icon {
+        width: 16px;
+    }
+
+    .carousel-indicators {
+        margin-right: 0%;
+    }
+
+    #carousel-game .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+    }
+
+    #feature-bg {
+        background-position: top;
+    }
+
+    #feature-bg .col-sm-4 {
+        margin-left: 43rem;
+    }
+
+    #subscribe-bg .col-sm-6 {
+        margin-left: 36rem;
+    }
+
+    #subscribe-bg .col-lg-3 img {
+        width: 290px; 
+        height: 445px;
+        margin-top: -13px;
+        margin-left: 23px;
+    }
+
+    #subscribe-bg .mb-1 {
+        font-size: 18px;
+    }
+
+    #subscribe-bg .col-sm-6 h1 {
+        font-size: 44px;
+    }
+
+    .desc {
+        font-size: 14px;
+    }
+
+    #exampleInputEmail1 {
+        margin-top: 37px;
+        font-size: 12px;
+    }
+
+    #subscribe-bg .col-auto .btn {
+        margin-top: 35px;
+        font-size: 12px;
+        line-height: 12.79px;
+    }
+
+    #subscribe-bg .footer-menu {
+        margin-bottom: -3rem;
+        margin-top: 2rem;
+    }    
+}
+
+
+@media screen and (min-width: 1440px)
+{
+    #main-bg .btn strong {
+        font-size: 12px;
+        line-height: 21.79px;
+    }
+
+    #game-bg .small, small {
+        font-size: 22px;
+    }
+
+    #game-bg .col-md-3 .h1 {
+        font-size: 48px;
+    }
+
+    .w-100 {
+        width: 100%!important;
+        margin-left: 55px;
+    }
+
+    .carousel-control-prev-icon {
+        width: 16px;
+    }
+
+    .carousel-control-prev {
+        margin-left: -4%;
+    }
+
+    .carousel-control-next-icon {
+        width: 16px;
+    }
+
+    .carousel-indicators {
+        margin-right: 0%;
+    }
+
+    #carousel-game .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+    }
+
+    #feature-bg .col-sm-4 {
+        margin-left: 50rem;
+    }
+
+    #feature-bg p {
+        font-size: 22px;
+    }
+
+    #feature-bg .col-sm-4 h1 {
+        font-size: 58px;
+    }
+
+    #feature-bg .sub-text-list {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #system-bg .text-center {
+        font-size: 14px;
+        margin-top: -13rem;
+        margin-bottom: 5rem
+    }
+
+    #system-bg h1 {
+        font-size: 48px;
+    }
+
+    #system-bg .text-orange {
+        font-size: 22px;
+    }
+
+    #system-bg p {
+        margin: 0px;
+        font-size: 16px;
+    }
+
+    #topscores-bg .offset-1 h1 {
+        font-size: 56px;
+    }
+
+    #topscores-bg .col-sm-4 p {
+        font-size: 18px;
+    }
+
+    #topscores-bg .btn {
+        font-size: 16px;
+        padding: 6px 11px;
+    }
+
+    #topscores-bg .image-profile img {
+        width: 77.7px;
+        height: 80.49px;
+    }
+
+    #topscores-bg .card-body .text-orange {
+        font-size: 22px;
+    }
+
+    #topscores-bg .card-body .sub-text {
+        font-size: 20px;
+    }
+
+    #topscores-bg #date {
+        font-size: 16px;
+    }
+
+    #topscores-bg .card-body .card-text {
+        font-size: 20px;
+    }
+
+    #topscores-bg .card .card-body {
+        padding: 21px 24px;
+    }
+
+    #topscores-bg .col-sm-10 {
+        width: 100.333333%;
+        margin-right: -76px;
+    }
+
+    #subscribe-bg .col-sm-6 {
+        margin-left: 45rem;
+        flex: 3 11 auto;
+        margin-right: 5rem;
+    }
+
+    #subscribe-bg .col-lg-3 img {
+        margin-top: 8rem;
+        margin-left: 6rem;
+        width: 300px;
+        height: 450px;
+    }
+
+    #subscribe-bg .mb-1 {
+        font-size: 20px;
+    }
+
+    #subscribe-bg .col-sm-6 h1 {
+        font-size: 48px;
+    }
+
+    .desc {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    #exampleInputEmail1 {
+        margin-top: 44px;
+        font-size: 14px;
+    }
+
+    #subscribe-bg .col-auto .btn {
+        margin-top: 42px;
+        font-size: 14px;
+        line-height: 13.79px;
+    }
+
+    #subscribe-bg .footer-menu .footer-menu-item {
+        font-size: 12px;
+    }
+}
+
+
+
+
+

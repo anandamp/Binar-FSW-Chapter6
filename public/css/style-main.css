@@ -1,0 +1,357 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+    color: white;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+p {
+    margin: 0px;
+}
+
+/* Page 1 - Main Page */
+#main-bg {
+    background-image: url(../img/main-bg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+/* Navigation Bar */
+#navigation {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16.34px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    letter-spacing: 0.1em;
+    left: 0;
+    right: 0;
+    padding: 17px 100px;
+}
+
+#navigation .navbar-brand {
+    font-size: 24px;
+    line-height: 32.68px; 
+    width: 77px;
+    height: 33px;
+    letter-spacing: 0.1em;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 143px;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 15px;
+}
+
+#main-bg .h1 {
+    letter-spacing: 3px;
+}
+
+#main-bg .my-4{
+    letter-spacing: 2px;
+}
+
+.btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 21.79px;
+    color: rgba(26, 25, 23, 1);
+    
+}
+
+.thestory {
+    font-family: 'Open Sans';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 12px;
+}
+
+.thestory p {
+    margin-bottom: 0px;
+}
+
+.thestory img {
+    width: 20.25px;
+    height: 8.17px;
+    margin-top: 0px;
+    padding-left: 3px;
+}
+
+
+
+/* Page 2 - Game Page*/
+#game-bg {
+    background-image: url(../img/the-games-bg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#game-bg .col-md-3 {
+    padding-right: 0px;
+}
+
+#game-bg .col-md-3 p {
+    font-family: arial;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+#game-bg .col-md-3 .h1 {
+    font-size: 48px;
+}
+
+.carousel-control-prev {
+    margin-left: -10%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../img/switch-left.svg);
+}
+
+.carousel-control-next {
+   margin-right: -10%; 
+}
+.carousel-control-next-icon {
+    background-image: url(../img/switch-right.svg);
+}
+
+#carousel-game .carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border: 2px solid white;
+    border-radius: 100%;
+    background-color: transparent;
+}
+
+#carousel-game .carousel-indicators li:hover {
+    background-color: white;
+}
+
+
+/* Section 3 - Features */
+#feature-bg {
+    background-image: url(../img/features.jpg);
+    background-position: top;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#feature-bg p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27.6px;
+    letter-spacing: 2px;
+}
+
+#feature-bg .col-sm-4 h1 {
+    font-size: 56px;
+    line-height: 64.39px;
+    letter-spacing: 3px;
+}
+
+.text-orange {
+    color: #FFB548;
+    font-size: 24px; 
+    letter-spacing: 2px;
+}
+
+#feature-bg .sub-text-list {
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 0px;
+}
+
+#feature-bg ul li {
+    list-style: circle;
+    font-size: 36px;
+}
+
+#feature-bg #list1 {
+    list-style: disc;
+}
+
+#feature-bg .sub-text-list .line {
+    width: 5px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+}
+
+
+/* Section 4 - System Requirements */
+#system-bg {
+    background-image: url(../img/requirements.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    font-size: 14px ;
+}
+
+#system-bg .text-center {
+    letter-spacing: 2px;
+}
+
+#system-bg h1 {
+    font-size: 53px;
+    letter-spacing: 2px;
+}
+
+#system-bg table {
+    font-family: Open Sans;
+    font-size: 16px;
+    color: white;
+}
+
+#system-bg table td {
+    width: 50%;
+    border: 1px solid #97979775;
+    border-width: thin;
+    padding: 18px 8px;
+}
+
+
+/* Section 5 - TOP SCORES */
+#topscores-bg {
+    background-image: url(../img/top-score-bg.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#topscores-bg .col-sm-4 p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+#topscores-bg .offset-1 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    letter-spacing: 3px;
+}
+
+#topscores-bg .btn {
+    background-color: rgba(255, 181, 72, 1);
+}
+
+#topscores-bg .card {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+#topscores-bg .card .card-body {
+    padding: 11px 19px;
+}
+
+#topscores-bg .sub-text {
+    color: #7e7e7f;
+}
+
+#topscores-bg #date {
+    font-size: 12px;
+}
+
+#topscores-bg .image-profile img {
+    border-radius: 100%;
+    width: 63.7px;
+    height: 63.49px;
+    filter: drop-shadow(7px 3px 0px orange)
+}
+
+#topscores-bg .pl-3 {
+    padding-left: 22px;
+}
+
+
+/* Section 6 - Subscribe */
+#subscribe-bg {
+    background-image: url(../img/newsletter.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+} 
+
+.mb-1 {
+    font-size: 20px ;
+    letter-spacing: 2px;
+}
+
+#subscribe-bg .col-sm-3 img {
+    width: 290px; 
+    height: 445px;
+}
+
+.col-sm-6 h1 {
+    font-size: 48px;
+    letter-spacing: 3px;
+}
+
+.desc {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+#exampleInputEmail1 {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.08);
+    color: white;
+    margin-top: 45px;
+    font-size: 14px;
+}
+
+#subscribe-bg .col-auto .btn {
+    margin-top: 45px;
+    font-size: 12px;
+}
+
+#subscribe-bg .col-auto .footer-menu {
+    font-size: 12px;
+}
+
+#subscribe-bg .col-lg-10 .row .p {
+    font-family: Open Sans;
+    font-size: 8px;
+    margin-right: 45px;
+}
+
+#subscribe-bg .footer-menu {
+    font-size: 0.6rem;
+    margin-top: 1rem;
+    letter-spacing: 2px;
+}
+
+#subscribe-bg .footer-menu .footer-menu-item {
+    margin-right: 5px;
+}
+
+#subscribe-bg .copyright {
+    font-size: 12px;
+    color: #7e7e7f;
+    padding-left: 14px;
+}
+
+#subscribe-bg .privacy {
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+#subscribe-bg .privacy .p {
+    margin-right: 0px;
+}
+

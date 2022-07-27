@@ -1,0 +1,48 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('../img/main-bg.jpg');
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.center-div {
+    padding-top: 10%;
+}
+
+.btn.btn-success {
+    padding: .4em 2em;
+    margin-top: 2rem;
+}
+
+form {
+    padding: 0 3em;
+    margin-top: -1rem;
+}
+
+#login .container {
+    border-radius: 10px;
+}
+
+#login h1 {
+    color: white;
+}
+
+#login .title > span {
+    font-size: .8em;
+    color: white;
+}
+
+#login a {
+    font-size: 10px;
+    color: yellow;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+#login .form-control {
+    font-size: 12px;
+}
