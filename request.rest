@@ -1,0 +1,17 @@
+GET http://localhost:3000/token
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTYsInVzZXJuYW1lIjoiYW1wcmFkaW5pIiwiZW1haWwiOiJhbmFuZGFAZ21haWwuY29tIiwiaWF0IjoxNjYwNTYxNTMxLCJleHAiOjE2NjA2NDc5MzF9.4-jTzB9dvyYIJJxZRQOvN_Zhb4n9O75ZzksVI68g5Bk
+
+
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "jennie",
+    "password": "rahasia"
+}
+
+
+### 
+DELETE http://localhost:3000/logout

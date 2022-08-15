@@ -1,15 +1,20 @@
 const express = require('express')
 const routes = express.Router()
+
 const loginController = require('../controller/login')
+const signupController = require('../controller/signup')
 
 
-// Post
+// API
 routes.post('/login', loginController.login)
-routes.post('/signup', loginController.signup)
-routes.post('/sql/signup', loginController.signupSql)
-routes.post('/sql/login', loginController.loginSql)
+routes.post('/signup', signupController.signup)
+routes.post('/api/signup', signupController.signupSql)
+routes.post('/api/login', loginController.loginSql)
+routes.delete('/logout', loginController.logout)
+routes.get('/dashboard', loginController.verifyToken)
 
-// Get
+
+// Views
 routes.get('/', (req, res) => {
     res.render('main.ejs')
 })
@@ -29,5 +34,10 @@ routes.get('/login', (req, res) => {
 routes.get('/signup', (req, res) => {
     res.render('signup.ejs')
 })
+
+routes.get('/profile', (req, res) => {
+    res.render('profile.ejs')
+})
+
 
 module.exports = routes

@@ -4,7 +4,6 @@ body {
     font-weight: 400px;
     color: white;
     max-width: 100%;
-    overflow-x: hidden;
 }
 
 p {
@@ -63,7 +62,6 @@ p {
     font-size: 12px;
     line-height: 21.79px;
     color: rgba(26, 25, 23, 1);
-    
 }
 
 .thestory {

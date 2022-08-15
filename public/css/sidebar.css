@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+.wrap{
+   width: 100%;
+   float: right;
+}
+
+/* .main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+} */
+
+
+/*css sidebar start*/
+
+
+.sidebar{
+    height: 100vh;
+    width: 220px;
+    background-image: url(../img/features.jpg);
+    position: fixed;
+    z-index: 900;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-left: -1rem;
+    background-size: 70rem;
+    background-repeat: no-repeat;
+    background-position-x: -7rem;
+}
+
+.opensidebar{
+    left: 0;
+}
+
+.sidebar h1{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+
+.sidebar ul{
+    display: block;
+    margin-top: 50px;
+}
+
+.sidebar ul li{
+    
+    padding: 10px 0;
+    list-style: none;
+
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a{
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: -2rem;
+}
+
